@@ -60,7 +60,8 @@ public class MethodReferencesDemo {
         Function<List<String>, Set<String>> setFunctionMethodRef = HashSet::new;
         System.out.println(setFunctionMethodRef.apply(fruits));
 
-        System.out.println("Srijan new feature ");
+        System.out.println("Added new feature ");
+
 
     }
 }
