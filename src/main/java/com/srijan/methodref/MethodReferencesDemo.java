@@ -9,6 +9,7 @@ interface Printable{
     void print(String msg);
 }
 
+
 public class MethodReferencesDemo {
 
     public void display(String msg){
@@ -59,6 +60,7 @@ public class MethodReferencesDemo {
         Function<List<String>, Set<String>> setFunctionMethodRef = HashSet::new;
         System.out.println(setFunctionMethodRef.apply(fruits));
 
+        System.out.println("Srijan new feature ");
 
     }
 }
